@@ -1,0 +1,14 @@
+Name:		HelloHaskell
+Version:	0.0.1
+Author:		itto100pen
+Cabal-Version:	>= 1.8
+Build-Type: Simple
+
+source-repository head
+  type:     git
+  location: git://github.com/itto100pen/HelloHaskell.git
+
+Executable HelloHaskell
+  Main-is: HelloHaskell.hs
+  HS-Source-Dirs: .
+  Build-Depends: base >=4 && <5
